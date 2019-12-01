@@ -1,55 +1,98 @@
 <html>
-<title>My To Do List</title>
+<html lang="en">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My To Do List</title>
     <script src="https://kit.fontawesome.com/f0ca07f1f1.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Nunito&display=swap" rel="stylesheet">
-       <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-         <img class="image" src = "images/organise-crop.jpg"/>
-    <h1>My To Do List:</h1>
+    <div class="container">
 
-    <form>
-        <input type="text" placeholder="Write your task here..." />
+        <div class="row">
 
-        <button> Add > </button>
-    </form>
+            <div class="col-12">
+                <img class="image" src="images/organise-crop.jpg" />
+            </div>
+        </div>
 
-   <i class="fas fa-tasks"></i> 
-    <p class="small-header"> Things to do : 2 </p>
-</id>
+        <div class="row">
+            <div class="col-12">
+                <h1>My To Do List:</h1>
+            </div>
+        </div>
 
-<li>
-    <span>
-        <label> Buy cat food</label>
-    </span>
 
-    <span>
-        <button> Great, task done! <i class="far fa-check-circle"></i> </button>
-    </span>
+        <div class="row box-margin">
+            <div class="col-3">
+                <input id = "text-box" type="text" placeholder="Write your task here..." />
+            </div>
 
-    <span>
-        <button> Oops, delete me! <i class="far fa-trash-alt"></i> </button>
-    </span>
-</li>
+            <div class="col-lg-6">
+                <button> Add Task > </button>
+            </div>
+        </div>
 
-<li>
-    <span>
-        <label>Write up notes from this week’s lecture<label>
-    </span>
-    <span>
-        <button> Great, task done! <i class="far fa-check-circle"></i> </button>
-    </span>
-    <span>
-        <button> Oops, delete me! <i class="far fa-trash-alt"></i> </button>
-    </span>
-</li>
+        
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <p class="small-header"> Things to do : 2 </p>
 
+                <div class="row">
+                    <div class="col-6">
+                        <p> Buy cat food</p>
+                    </div>
+
+                    <div class="col-3">
+                        <button>  <div>Great, task done!</div> <i class="far fa-check-circle"></i> </button>
+                    </div>
+
+                    <div class="col-3">
+                        <button> <div>Oops, delete me!</div> <i class="far fa-trash-alt"></i> </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p> Write up notes from this week's lecture</p>
+                    </div>
+
+                    <div class="col-3">
+                        <button><div>Great, task done!</div><i class="far fa-check-circle"></i> </button>
+                    </div>
+
+                    <div class="col-3">
+                        <button> <div>Oops, delete me!</div> <i class="far fa-trash-alt"></i> </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-12 col-lg-6">
+                <p class="small-header"> Completed Tasks : 1 </p>
+                <div class="row">
+
+                    <div class="col-6">
+                        <p> Pick up parcel from the post office</p>
+                    </div>
+
+                    <div class="col-3">
+                        <button> <div>Task not done</div> <i class="far fa-check-circle"></i> </button>
+                    </div>
+
+                    <div class="col-3">
+                        <button> <div>Delete for good!</div> <i class="far fa-trash-alt"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 </body>

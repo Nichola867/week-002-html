@@ -1,9 +1,7 @@
 body {
-    background-color:#FFFEFA;
-    height: 70vh;
+    background-color: #FFFEFA;
     font-family: 'Nunito', sans-serif;
-    text-align: left;
-    }
+}
 
 h1 {
     text-align: center;
@@ -15,26 +13,17 @@ h1 {
 label {
     font-weight: bold;
     color: #304039;
-    display: inline-block;
     font-family: 'Nunito', sans-serif;
 }
 
-span{
-    width: 30%;
-    display: inline-block;
+span {
     font-family: 'Nunito', sans-serif;
-    padding: 10 0 10 0;
-    text-align: left;
 }
-
 
 .small-header {
-    padding: 10 0 10 0;
-    display: inline-block;
     font-family: 'Cabin Sketch', cursive;
-   font-weight: bold; 
-   font-size: 25px;
-   color: #304039;
+    font-weight: bold;
+    color: #304039;
 }
 
 button {
@@ -42,6 +31,7 @@ button {
     border-radius: 4px;
     text-align: center;
     color: #304039;
+    font-size: 70%;
 }
 
 button:hover {
@@ -50,8 +40,15 @@ button:hover {
 }
 
 .image {
-    width: 98%;
-   display: block;
-   margin-left:auto;
-   margin-right:auto;;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text-box {
+    width: 100%;
+}
+
+.box-margin {
+    padding: 0 0 40 0;
 }
