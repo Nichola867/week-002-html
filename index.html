@@ -29,68 +29,90 @@
             </div>
         </div>
 
-
         <div class="row box-margin">
-            <div class="col-3">
-                <input id = "text-box" type="text" placeholder="Write your task here..." />
+            <div class="col-5">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">My next task...</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                </form>
             </div>
 
-            <div class="col-lg-6">
-                <button> Add Task > </button>
+            <div class="col-6 ">
+                <button class="btn btn-primary task-button" type="submit">Add task</button>
             </div>
         </div>
 
-        
         <div class="row">
             <div class="col-12 col-lg-6">
-                <p class="small-header"> Things to do : 2 </p>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center list-group-margin">
+                        <i class="fas fa-list"></i> Things to do
+                        <span class="badge badge-primary badge-pill">2</span>
+                    </li>
 
-                <div class="row">
-                    <div class="col-6">
-                        <p> Buy cat food</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <p> Buy cat food</p>
+                        </div>
+
+                        <div class="col-3">
+                            <button type="button" class="btn btn-outline-success btn-sm button-width">
+                                <div> Task done!</div> <i class="far fa-check-circle"></i>
+                            </button>
+                        </div>
+
+                        <div class="col-3">
+                            <button type="button" class="btn btn-outline-danger btn-sm button-width">
+                                <div>Delete me!</div> <i class="far fa-trash-alt"></i>
+                            </button>
+                        </div>
                     </div>
 
-                    <div class="col-3">
-                        <button>  <div>Great, task done!</div> <i class="far fa-check-circle"></i> </button>
-                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <p> Write up notes from this week's lecture</p>
+                        </div>
 
-                    <div class="col-3">
-                        <button> <div>Oops, delete me!</div> <i class="far fa-trash-alt"></i> </button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <p> Write up notes from this week's lecture</p>
-                    </div>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-outline-success btn-sm button-width">
+                                <div>Task done!</div><i class="far fa-check-circle"></i>
+                            </button>
+                        </div>
 
-                    <div class="col-3">
-                        <button><div>Great, task done!</div><i class="far fa-check-circle"></i> </button>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-outline-danger btn-sm button-width">
+                                <div>Delete me!</div> <i class="far fa-trash-alt"></i>
+                            </button>
+                        </div>
                     </div>
-
-                    <div class="col-3">
-                        <button> <div>Oops, delete me!</div> <i class="far fa-trash-alt"></i> </button>
-                    </div>
-                </div>
             </div>
 
 
-
             <div class="col-12 col-lg-6">
-                <p class="small-header"> Completed Tasks : 1 </p>
-                <div class="row">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center list-group-margin">
+                        <i class="fas fa-tasks"></i> Completed Tasks:
+                        <span class="badge badge-primary badge-pill">1</span>
+                    </li>
 
-                    <div class="col-6">
-                        <p> Pick up parcel from the post office</p>
-                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <p> Pick up parcel from the post office</p>
+                        </div>
 
-                    <div class="col-3">
-                        <button> <div>Task not done</div> <i class="far fa-check-circle"></i> </button>
-                    </div>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-outline-warning btn-sm button-width">
+                                <div>Not done</div> <i class="far fa-check-circle"></i>
+                            </button>
+                        </div>
 
-                    <div class="col-3">
-                        <button> <div>Delete for good!</div> <i class="far fa-trash-alt"></i> </button>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-outline-danger btn-sm button-width">
+                                <div>Delete me!</div> <i class="far fa-trash-alt"></i>
+                            </button>
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
 
